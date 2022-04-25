@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.6
 from passlock import User, Credentials
 
 
@@ -83,6 +84,7 @@ def generate_Password():
     '''
     auto_password = Credentials.generatePassword()
     return auto_password
+
 
 def copy_password(account):
     """
